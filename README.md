@@ -10,7 +10,7 @@ S. No.
 Name of the apparatus	
 Range / Type	
 Quantity
-
+```
 1	Incandescent Lamp	60W	1 No.
 2	Lamp Holder	Pendent Type	1 No.
 3	SPDT Switch	230V,5A	2 Nos
@@ -18,17 +18,17 @@ Quantity
 5	P.V.C Pipe	1/4"	As per requirement
 6	Wooden Board	-	1 No.
 7	Round block	-	1 No.
-
+```
 
 Theory:
-•	A two way switch is installed near the first step of the stairs. The other two way switch is installed at the upper part where the stair ends.
+```•	A two way switch is installed near the first step of the stairs. The other two way switch is installed at the upper part where the stair ends.
 •	The light point is provided between first and last stair at an adequate location and height if the light is switched on by the lower switch. It can be switched off by the switch at the top or vice versa.
 •	The circuit can be used at the places like bed room where the person may  not  have  to  travel for switching off the light to the place from where the light is switched on.
-•	Two  numbers  of  two-way  switches  are  used  for  the  purpose.  The supply is given to the switch at the short circuited terminals.
+•	Two  numbers  of  two-way   the short circuited terminals.
 •	The  connection  to  the  light  point  is  taken  from  the  similar  short circuited  terminal  of  the   second  switch.   Order  two  independent terminals of each circuit are connected through  cables 
 PROCEDURE
 •  Place the accessories on the wiring board as per the circuit diagram.
-•  Place the P.V.C pipe and insert two wires into the P.V.C pipe.
+•  Place the P.V.C pipe and insert two wires intoswitches  are  used  for  the  purpose.  The supply is given to the switch at the P.V.C pipe.
 •	Take one wire connect one end to the phase side and other end to the middle point of SPDT switch 1
 •  Upper point of SPDT switch 1 is connected to the lower point of SPDT
 switch2.
@@ -37,14 +37,43 @@ switch2.
 •  Another end of lamp holder is connected to neutral line.
 •  Screw the accessories on the board and switch on the supply.
 •  Circuit is tested for all possible combination of switch positions.
+```
 
 
 Direct connection: CIRCUIT DIAGRAM: 
+
+<img width="731" height="365" alt="image" src="https://github.com/user-attachments/assets/33d05b70-5807-4079-bb00-9a748ba8d3a5" />
+
 Tabulation:1
+
+|NODE|S1|S2|LAMP|
+|-----|----|---|-----|
+|1|ON|ON|ON|
+|2|ON|OFF|OFF|
+|3|OFF|ON|OFF|
+|4|OFF|OFF|ON|
+
+| COMPONENTS       | PROTEUS     | SPECIFICATION        |
+|------------------|-------------|----------------------|
+| AC Supply        | VSine       | Amplitude = 220 V    |
+| Two-way Switch   | SPDT        | Frequency = 50 Hz    |
+| Lamp             | Animated    | 230 V                |
 	
 Cross connection: CIRCUIT DIAGRAM:
 
+<img width="1287" height="636" alt="image" src="https://github.com/user-attachments/assets/e6cf2983-8449-4942-8301-2d5de615864b" />
+
 Tabulation:2
+
+|NODE|S1|S2|LAMP|
+|-----|----|---|-----|
+|1|ON|ON|OFF|
+|2|ON|OFF|ON|
+|3|OFF|ON|ON|
+|4|OFF|OFF|OFF|
+
 
 RESULT:
 Thus the staircase wiring is connected and tested.
+
+
