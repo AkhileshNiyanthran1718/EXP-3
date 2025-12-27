@@ -40,37 +40,28 @@ switch2.
 ```
 
 
-Direct connection: CIRCUIT DIAGRAM: 
+Direct connection:
+
+CIRCUIT DIAGRAM: 
 
 <img width="731" height="365" alt="image" src="https://github.com/user-attachments/assets/33d05b70-5807-4079-bb00-9a748ba8d3a5" />
 
 Tabulation:1
 
-|NODE|S1|S2|LAMP|
-|-----|----|---|-----|
-|1|ON|ON|ON|
-|2|ON|OFF|OFF|
-|3|OFF|ON|OFF|
-|4|OFF|OFF|ON|
 
-| COMPONENTS       | PROTEUS     | SPECIFICATION        |
-|------------------|-------------|----------------------|
-| AC Supply        | VSine       | Amplitude = 220 V    |
-| Two-way Switch   | SPDT        | Frequency = 50 Hz    |
-| Lamp             | Animated    | 230 V                |
+<img width="799" height="388" alt="Screenshot 2025-12-27 120858" src="https://github.com/user-attachments/assets/3790208d-6d39-486b-9836-36b1d0de2e58" />
+
+
 	
-Cross connection: CIRCUIT DIAGRAM:
+Cross connection: 
+
+CIRCUIT DIAGRAM:
 
 <img width="1287" height="636" alt="image" src="https://github.com/user-attachments/assets/e6cf2983-8449-4942-8301-2d5de615864b" />
 
 Tabulation:2
 
-|NODE|S1|S2|LAMP|
-|-----|----|---|-----|
-|1|ON|ON|OFF|
-|2|ON|OFF|ON|
-|3|OFF|ON|ON|
-|4|OFF|OFF|OFF|
+<img width="753" height="380" alt="Screenshot 2025-12-27 120740" src="https://github.com/user-attachments/assets/23e3d54a-29cb-4803-a144-0ec305a2e486" />
 
 
 RESULT:
